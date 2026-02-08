@@ -1,0 +1,41 @@
+1. mkdir ev4 creates a directory ev4
+2. cd ev4 makes the current working directory ev4
+3. mkdir 65 makes a directory 65 inside ev4
+4. cd- moves from 65 to ev4
+5.cd . remains in present directory
+6. cd .. switches to previous directory
+7. cd ~ moves to home directory
+8. cd / moves to home directory
+9. ls - l if used in directory 65 total 0
+11. cd moves to directory given in cd
+12.pwd shows the present working directory
+15. cd ~/ev4/<65> moves to directory 65
+16. mkdir emptydummy creates a directory called emptydummy
+17. mkdir dummy creates a directory called dummy
+18. cd dummy moves to dummy directory
+19. touch file1 creates a file1
+20. touch file2 creates a file2
+21. rm -i file2 asks whether to remove the file2 then if y is typed removes it
+22 rm emptydummy cannot remove as empty dummy is a directory
+23. rmdir emptydummy removes the emptydummy directory
+24. rmdir dummy failes to remove it as it is not empty
+25.rmdir -r dummy removes the dummy directory
+26. cat> file1.txt creates a new file1.txt and writes Myfirst line as content
+27. cat> file2.txt creates a new file2.txt and writes hello second line as content
+28. cat> file3.txt creates a new file3.txt and writes hello  line as content
+29.cat file1.txt file2.txt > file_combined.txt creates a file combined.txt and appends content of file1 and file2 into it
+   output Myfirst linehello secondline
+30.cat file_combined.txt shows its content
+31.cat file3.txt >> file_combined.txt appends file3.txt into file_combined
+32.cat file_combined.txt shows its content 
+   output 
+   Myfirst linehello secondline
+   Hello line
+33. grep -i hello file*
+    file3.txt:hello line
+    file_combined.txt: hello line
+34.cp file1.txt ~/ev4 copies file.txt into ev4
+35.mv file_combined.txt combined   renames file_combined into combined in the current directory  
+
+
+
